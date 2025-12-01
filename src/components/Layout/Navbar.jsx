@@ -21,7 +21,7 @@ const Navbar = () => {
     const drawer = (
         <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center', p: 2 }}>
             <Box sx={{ my: 2 }}>
-                <img src="/devmoblogo.png" alt="DevMob Logo" style={{ height: '80px', objectFit: 'contain' }} />
+                <img src="/devmoblogo.png" alt="DevMobster Logo" style={{ height: '80px', objectFit: 'contain' }} />
             </Box>
             <List>
                 {navItems.map((item) => (
@@ -48,7 +48,7 @@ const Navbar = () => {
                         textDecoration: 'none',
                     }}
                 >
-                    <img src="/devmoblogo.png" alt="DevMob Logo" style={{ height: '70px', objectFit: 'contain' }} />
+                    <img src="/devmoblogo.png" alt="DevMobster Logo" style={{ height: '70px', objectFit: 'contain' }} />
                 </Box>
 
                 {isMobile ? (

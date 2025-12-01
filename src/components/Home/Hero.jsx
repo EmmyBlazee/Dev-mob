@@ -68,7 +68,7 @@ const Hero = () => {
                             lineHeight: 1.6,
                         }}
                     >
-                        DevMob delivers premium mobile apps, web solutions, and game development services. We turn your vision into digital reality.
+                        DevMobster delivers premium mobile apps, web solutions, and game development services. We turn your vision into digital reality.
                     </Typography>
 
                     <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap' }}>

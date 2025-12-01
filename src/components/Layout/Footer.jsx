@@ -11,7 +11,7 @@ const Footer = () => {
                 <Grid container spacing={4} justifyContent="space-between">
                     <Grid item xs={12} md={4}>
                         <Box sx={{ mb: 2 }}>
-                            <img src="/devmoblogo.png" alt="DevMob Logo" style={{ height: '60px', objectFit: 'contain' }} />
+                            <img src="/devmoblogo.png" alt="DevMobster Logo" style={{ height: '60px', objectFit: 'contain' }} />
                         </Box>
                         <Typography variant="body2" color="text.secondary">
                             Premium development services for mobile, web, and games. We bring your digital vision to life with cutting-edge technology.
@@ -36,7 +36,7 @@ const Footer = () => {
                 </Grid>
                 <Box sx={{ mt: 4, pt: 4, borderTop: '1px solid rgba(255,255,255,0.05)', textAlign: 'center' }}>
                     <Typography variant="body2" color="text.secondary">
-                        © {new Date().getFullYear()} DevMob. All rights reserved.
+                        © {new Date().getFullYear()} DevMobster. All rights reserved.
                     </Typography>
                 </Box>
             </Container>
